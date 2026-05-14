@@ -3,12 +3,12 @@
 <br/>
 
 ```
- ████████╗███████╗ ██████╗
- ╚══██╔══╝██╔════╝██╔════╝
-    ██║   ███████╗██║
-    ██║   ╚════██║██║
-    ██║   ███████║╚██████╗
-    ╚═╝   ╚══════╝ ╚═════╝
+████████╗███████╗ ██████╗
+╚══██╔══╝██╔════╝██╔════╝
+   ██║   ███████╗██║     
+   ██║   ╚════██║██║     
+   ██║   ███████║╚██████╗
+   ╚═╝   ╚══════╝ ╚═════╝
  Thin-Shell Company Framework
  薄壳公司框架
 ```
@@ -21,7 +21,7 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-000000?style=flat-square)](./LICENSE)
 [![RFCs](https://img.shields.io/badge/RFCs-open-000000?style=flat-square)](./rfcs/)
 [![Website](https://img.shields.io/badge/website-thinshell.org-000000?style=flat-square)](https://thinshell.org)
-[![EN](https://img.shields.io/badge/English-README-000000?style=flat-square)](./README.en.md)
+[![EN](https://img.shields.io/badge/English-README-000000?style=flat-square)](./README.md)
 
 <br/>
 
@@ -133,9 +133,9 @@ code/
 
 ## 项目发起
 
-**AI最严厉的父亲**（[@cat9999aaa](https://github.com/cat9999aaa)）
+**Stanley.team** · **HerName** · **HerPower** · **Razzhood**
 
-本框架基于 2026 年起对组织形态的持续研究和实践探索，欢迎所有人参与。
+本框架欢迎所有人参与。
 
 ---
 

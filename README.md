@@ -1,12 +1,12 @@
 <div align="center">
 
 ```
- ████████╗███████╗ ██████╗
- ╚══██╔══╝██╔════╝██╔════╝
-    ██║   ███████╗██║
-    ██║   ╚════██║██║
-    ██║   ███████║╚██████╗
-    ╚═╝   ╚══════╝ ╚═════╝
+████████╗███████╗ ██████╗
+╚══██╔══╝██╔════╝██╔════╝
+   ██║   ███████╗██║     
+   ██║   ╚════██║██║     
+   ██║   ███████║╚██████╗
+   ╚═╝   ╚══════╝ ╚═════╝
  Thin-Shell Company Framework
 ```
 
@@ -123,7 +123,7 @@ Autopoiesis (Maturana & Varela, 1972) · Viable System Model (Beer, 1972) · Com
 
 ## Initiated by
 
-**AI最严厉的父亲 · The Strictest AI Father**
+**Stanley.team** · **HerName** · **HerPower** · **Razzhood**
 
 ---
 
