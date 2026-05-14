@@ -1,7 +1,5 @@
 <div align="center">
 
-<br/>
-
 ```
  ████████╗███████╗ ██████╗
  ╚══██╔══╝██╔════╝██╔════╝
@@ -10,135 +8,125 @@
     ██║   ███████║╚██████╗
     ╚═╝   ╚══════╝ ╚═════╝
  Thin-Shell Company Framework
- 薄壳公司框架
 ```
 
-**一种以意图为起点、以异构成员为主体、以自进化法典为治理架构的新型组织范式**
-
-<br/>
+**A new organizational paradigm: intent-driven, heterogeneous-member, self-evolving constitution**
 
 [![Version](https://img.shields.io/badge/version-3.0.0-000000?style=flat-square)](./whitepaper/v3.0/)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-000000?style=flat-square)](./LICENSE)
-[![RFCs](https://img.shields.io/badge/RFCs-open-000000?style=flat-square)](./rfcs/)
 [![Website](https://img.shields.io/badge/website-thinshell.org-000000?style=flat-square)](https://thinshell.org)
-[![EN](https://img.shields.io/badge/English-README-000000?style=flat-square)](./README.en.md)
+[![中文](https://img.shields.io/badge/语言-中文-000000?style=flat-square)](./README.zh-CN.md)
 
-<br/>
-
-[白皮书](#白皮书) · [快速开始](#快速开始) · [法典](#法典) · [案例](#案例) · [参与贡献](#参与贡献)
+[Whitepaper](#whitepaper) · [Quick Start](#quick-start) · [The Code](#the-code) · [Cases](#cases) · [Contribute](#contribute)
 
 </div>
 
 ---
 
-## 这是什么
+## What is this
 
-**薄壳公司（Thin-Shell Company，TSC）** 是一种新型组织形式。
+A **Thin-Shell Company (TSC)** is a new organizational form.
 
-它的成员可以是**个人、团队、公司、各类组织，或者 AI Agent**。
+Its members can be **individuals, teams, companies, organizations, or AI Agents**.
 
-它的规则写在**法典**里——分三层，有些永远不变，有些可以修改，有些会自动过期。
+Its rules live in a **Code** — three layers. Some are unchangeable forever, some can be modified, some expire automatically.
 
-它可以**无限嵌套**：一个 TSC 可以成为另一个 TSC 的成员。
+It **nests infinitely**: a TSC can be a member of another TSC.
 
-它用**贡献代币**决定谁有治理权，不是财富，不是职位。
+**Contribution Tokens** determine governance rights — not wealth, not titles.
 
-它在**聊天工具**里启动，在你睡觉的时候也在运行。
-
----
-
-## 为什么需要它
-
-传统组织形式假设**执行力是稀缺的**。当 AI Agent 可以 24/7 执行任务，这个假设就失效了。
-
-| 组织形式 | 问题 |
-|---------|------|
-| 传统公司 | 科层制 · 高管理成本 · 无法接纳 AI 为成员 |
-| DAO | 代币投机劫持治理，效率极低 |
-| Holacracy | 只有人类成员，没有 AI 的位置 |
-| AI Agent 框架 | 只解决技术执行，不解决组织设计 |
-
-**TSC 框架填补这个空白：当 AI 是组织成员而非工具时，组织应该如何设计？**
+It starts in a **chat interface** and runs while you sleep.
 
 ---
 
-## 白皮书
+## Why it exists
 
-| 版本 | 核心概念 | 状态 |
-|------|---------|------|
-| **[v3.0](./whitepaper/v3.0/)** | 自创生 · 可行系统模型 · 自进化法典 · DAO整合 · 递归TSC | ✅ 当前版本 |
-| [v2.0](./whitepaper/v2.0/) | 五类异构成员 · 七种组织形态 | 📦 存档 |
-| [v1.0](./whitepaper/v1.0/) | 基础薄壳公司框架 | 📦 存档 |
+Traditional organizations assume **execution capacity is scarce**. When AI Agents can execute tasks 24/7, that assumption fails.
+
+| Org form | Problem |
+|----------|---------|
+| Traditional company | Hierarchy, overhead, no AI member concept |
+| DAO | Token speculation hijacks governance |
+| Holacracy | Human-only, no AI member concept |
+| AI Agent frameworks | Solves execution, not organization design |
+
+**TSC fills the gap: when AI is a member rather than a tool, how should organizations be designed?**
 
 ---
 
-## 快速开始
+## Whitepaper
 
-**建立第一个 TSC**
+| Version | Core concepts | Status |
+|---------|--------------|--------|
+| **[v3.0](./whitepaper/v3.0/)** | Autopoiesis · VSM · Self-evolving Code · DAO · Recursive TSC | ✅ Current |
+| [v2.0](./whitepaper/v2.0/) | Five heterogeneous member types · Seven topologies | 📦 Archive |
+| [v1.0](./whitepaper/v1.0/) | Basic TSC framework | 📦 Archive |
+
+---
+
+## Quick Start
 
 ```
-第一步  阅读创世层模板      →  code/genesis/template.md
-第二步  填写你的存在宣言    →  为谁，解决什么，不超过 200 字
-第三步  配置第一个 Agent    →  tools/agent-configs/strategic-agent.md
-第四步  在微信/Telegram 启动 →  聊天即意图层
+1. Read Genesis Layer template   →  code/genesis/template.md
+2. Write Existence Declaration   →  For whom, solving what, ≤200 words
+3. Configure first Agent         →  tools/agent-configs/strategic-agent.md
+4. Start in WeChat or Telegram   →  Chat is the intent layer
 ```
 
 ---
 
-## 法典
+## The Code
 
 ```
 code/
 ├── genesis/
-│   ├── template.md          ← 创世层（永不可改的核心）
-│   └── examples/            ← 行业示例
+│   ├── template.md          ← Genesis Layer (never changes)
+│   └── examples/
 ├── constitutional/
-│   └── template.md          ← 宪法层
+│   └── template.md          ← Constitutional Layer
 ├── operational/
-│   ├── rule-template.md     ← 单条规则模板（含自动日落）
-│   └── rule-library/        ← 社区贡献的常用规则集
+│   ├── rule-template.md     ← Single rule (auto-sunset)
+│   └── rule-library/        ← Community rule library
 └── emergency/
-    └── template.md          ← 紧急协议
+    └── template.md
 ```
 
 ---
 
-## 案例
+## Cases
 
-→ **[提交你的案例](./cases/_template/CASE_TEMPLATE.md)**
+→ **[Submit your case](./cases/_template/CASE_TEMPLATE.md)**
 
-当前案例库正在建立中，等待社区贡献第一批真实案例。
-
----
-
-## 参与贡献
-
-| 你是 | 入口 | 做什么 |
-|------|------|--------|
-| 理论研究者 | `rfcs/` | 提框架修改提案 |
-| 实践者 | `cases/` | 提交真实 TSC 案例 |
-| 工具开发者 | `tools/` | 实现具体工具 |
-| 法律从业者 | `code/` | 完善法典模板 |
-| 翻译者 | `translations/` | 多语言版本（目前有中文和英文） |
-
-详见 [CONTRIBUTING.md](./CONTRIBUTING.md) · [GOVERNANCE.md](./GOVERNANCE.md)
+The case library is being built. Your real-world TSC is the most valuable contribution.
 
 ---
 
-## 理论来源
+## Contribute
 
-自创生（Maturana & Varela, 1972）· 可行系统模型（Stafford Beer, 1972）· 公地治理（Elinor Ostrom, 1990 · 诺贝尔奖）· 交易成本论（Ronald Coase, 1937 · 诺贝尔奖）· 进化博弈论（John Maynard Smith, 1973）· 机制设计理论（Hurwicz, Maskin, Myerson, 2007 · 诺贝尔奖）
+| You are | Go to | Do |
+|---------|-------|----|
+| Researcher | `rfcs/` | Propose framework changes |
+| Practitioner | `cases/` | Submit real TSC cases |
+| Developer | `tools/` | Implement tools |
+| Lawyer | `code/` | Improve Code templates |
+| Translator | `translations/` | New languages (zh/en available) |
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md)
 
 ---
 
-## 项目发起
+## Theoretical foundations
 
-**AI最严厉的父亲**（[@cat9999aaa](https://github.com/cat9999aaa)）
+Autopoiesis (Maturana & Varela, 1972) · Viable System Model (Beer, 1972) · Commons governance (Ostrom, 1990, Nobel) · Transaction cost theory (Coase, 1937, Nobel) · Evolutionary game theory (Maynard Smith, 1973) · Mechanism design (Hurwicz et al., 2007, Nobel)
 
-本框架基于 2026 年起对组织形态的持续研究和实践探索，欢迎所有人参与。
+---
+
+## Initiated by
+
+**AI最严厉的父亲 · The Strictest AI Father**
 
 ---
 
 [CC BY-SA 4.0](./LICENSE) · **[thinshell.org](https://thinshell.org)** · [GitHub](https://github.com/cat9999aaa/thinshell)
 
-*这个框架不属于任何公司。它属于所有愿意用它构建未来的人。*
+*This framework belongs to no company. It belongs to everyone willing to build the future with it.*
