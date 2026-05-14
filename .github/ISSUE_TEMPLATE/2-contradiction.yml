@@ -1,0 +1,32 @@
+name: "🐛 理论矛盾"
+description: 发现框架内部的逻辑矛盾或自相冲突
+title: "[矛盾] "
+labels: ["contradiction", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: "发现矛盾比提供答案更有价值。说清楚在哪里，为什么矛盾。"
+  - type: textarea
+    id: location-a
+    attributes:
+      label: 位置 A
+      placeholder: "whitepaper/v3.0/whitepaper-v3.0-full.md，第七章，创世层第三条"
+    validations:
+      required: true
+  - type: textarea
+    id: location-b
+    attributes:
+      label: 位置 B（与之矛盾的地方）
+    validations:
+      required: true
+  - type: textarea
+    id: contradiction
+    attributes:
+      label: 矛盾在哪里
+      description: 两处内容为什么互相矛盾？在什么情况下会产生悖论？
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议如何解决（可选）

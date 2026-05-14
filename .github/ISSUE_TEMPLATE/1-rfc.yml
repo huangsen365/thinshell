@@ -1,0 +1,50 @@
+name: "📐 RFC 提案"
+description: 提出框架理论修改提案
+title: "[RFC] "
+labels: ["rfc", "needs-discussion"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: 一句话摘要
+      placeholder: "这个 RFC 想改什么？"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 现在的问题
+      description: 现有框架的哪个部分不对？在什么真实场景下遇到了局限？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 提案内容
+      description: 建议修改的位置（文件+章节）和修改内容
+    validations:
+      required: true
+  - type: textarea
+    id: tradeoffs
+    attributes:
+      label: 权衡与潜在问题
+      description: 诚实说明这个修改会带来什么新的复杂性
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 影响范围
+      options:
+        - 操作层（小修改，不影响核心）
+        - 宪法层（中等，需更多讨论）
+        - 创世层（重大修改）
+        - 新增内容（不修改现有）
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 已读 rfcs/_template.md
+        - label: 已搜索现有 RFC，无重复
+        - label: 有真实场景支持（不只是理论上更好）

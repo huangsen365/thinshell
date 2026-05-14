@@ -1,0 +1,44 @@
+name: "📋 提交案例"
+description: 分享你正在运营的 TSC 实践
+title: "[案例] "
+labels: ["case-study"]
+body:
+  - type: markdown
+    attributes:
+      value: "案例不需要完美。真实、正在运行，比符合所有定义更重要。"
+  - type: input
+    id: name
+    attributes:
+      label: TSC 名称或代号
+    validations:
+      required: true
+  - type: dropdown
+    id: public
+    attributes:
+      label: 数据公开程度
+      options:
+        - 完全公开
+        - 部分公开（脱敏后）
+        - 暂不公开，只参与讨论
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 简要描述（做什么，谁是成员）
+    validations:
+      required: true
+  - type: checkboxes
+    id: member-types
+    attributes:
+      label: 成员类型
+      options:
+        - label: 个人成员
+        - label: 团队成员
+        - label: 公司成员
+        - label: 组织成员
+        - label: AI Agent 成员
+  - type: textarea
+    id: learnings
+    attributes:
+      label: 最重要的一条学习（可选）

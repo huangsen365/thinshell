@@ -1,0 +1,27 @@
+name: "🔧 工具"
+description: 请求工具实现，或宣告你正在做某个工具
+title: "[工具] "
+labels: ["tool"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: 类型
+      options:
+        - 请求：需要但自己不做
+        - 宣告：我正在实现
+        - 完成：准备提交 PR
+    validations:
+      required: true
+  - type: input
+    id: tool-name
+    attributes:
+      label: 工具名称
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 这个工具做什么，在什么场景下需要
+    validations:
+      required: true

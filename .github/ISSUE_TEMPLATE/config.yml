@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 讨论与提问
+    url: https://github.com/cat9999aaa/thinshell/discussions
+    about: 一般性讨论、提问、介绍你的 TSC 实践
+  - name: 🌐 官网
+    url: https://thinshell.org
+    about: TSC 框架官网
